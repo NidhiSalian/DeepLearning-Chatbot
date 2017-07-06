@@ -23,6 +23,9 @@ _intent_train.py_ - Trains model to detect intents in classes provided.
 
 _intent_predict.py_ - Predicts intent of test queries, recognizes entities and displays the dependency tree
 
+_corpuscleaner.py_ - When beginning to work with a new corpus, run the text file through corpuscleaner.py. This will remove all 
+                     numbers, the words "chapter" and "book", and any additional strings specified by the user in the file.
+
 _response_train.py_ - Trains a model to generate random text in the style of data provided.
 
 _response_generate.py_ - Generates random response based on user input seed.
@@ -81,6 +84,7 @@ python response_generate.py
 ## Acknowledgments:
    _response_train.py_ 
     Based on [this Keras example](https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py)
+    
    _corpuscleaner.py_ 
     From Maia McCormick's [project](https://github.com/maiamcc/markovgen)
 
