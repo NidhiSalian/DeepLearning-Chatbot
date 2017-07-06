@@ -59,3 +59,7 @@ python response_random_generate.py
    [Keras](https://github.com/fchollet/keras/tree/master/docs)
    
    [Spacy](https://spacy.io/)
+   
+## License:
+
+[MIT License](./license.txt)
