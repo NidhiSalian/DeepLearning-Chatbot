@@ -15,6 +15,18 @@ Current functionalities include:
    
    The other requirements(Python Libraries) can be found [here](./requirements.md).
 
+## What This Repo Contains:
+
+_preprocessor.py_  Loads datasets for intent classification, pads sentence vectors and creates one hot vectors for class labels
+
+_intent_train.py_ Trains model to detect intents in classes provided.
+
+_intent_predict.py_ Predicts intent of test queries, recognizes entities and displays the dependency tree
+
+_response_train.py_ Trains a model to generate random text in the style of data provided.
+
+_response_generate.py_ Generates random response based on user input seed.
+
 ## Usage:
 
 Provide your training datasets in the data/ folder.
