@@ -17,6 +17,8 @@ Current functionalities include:
 
 ## What This Repo Contains:
 
+_retrain_ner.py_ - Official sample script to retrain existing Spacy model's NER
+
 _preprocessor.py_ -  Loads datasets for intent classification, pads sentence vectors and creates one hot vectors for class labels
 
 _intent_train.py_ - Trains model to detect intents in classes provided.
@@ -87,6 +89,9 @@ python response_generate.py
     
    _corpuscleaner.py_ 
     From Maia McCormick's [project](https://github.com/maiamcc/markovgen)
+    
+   _retrain_ner.py_
+    Official sample script from [Spacy examples](https://github.com/explosion/spacy/blob/master/examples/training/train_new_entity_type.py)
 
 ## License:
 
