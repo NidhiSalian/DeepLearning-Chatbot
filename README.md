@@ -4,10 +4,10 @@ A simple, experimental chatbot implementation using Deep Learning, implemented i
 
 Current functionalities include:
 
-   Intent Classification [Using a Bidirectional LSTM based RNN - Keras with Tensorflow backend]
-   Entity Recognition [Using the Spacy NLP library for Python]
-   Dependency Tree Display [Using the Spacy NLP Library for Python]
-   Response Generation [Random response generation using Stacked LSTM based RNN - Keras with Tensorflow backend]
+    Intent Classification [Using a Bidirectional LSTM based RNN - Keras with Tensorflow backend]
+    Entity Recognition [Using the Spacy NLP library for Python]
+    Dependency Tree Display [Using the Spacy NLP Library for Python]
+    Response Generation [Random response generation using Stacked LSTM based RNN - Keras with Tensorflow backend]
     
 ## Getting Started:
 
