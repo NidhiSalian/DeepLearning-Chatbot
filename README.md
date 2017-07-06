@@ -11,6 +11,8 @@ Current functionalities include:
     
 ## Requirements:
 
+   You will need a working installation of Python 3.5. (Preferrably on Anaconda - Installation Guide)
+   The other requirements can be found here.
 
 ## Usage:
 
