@@ -19,7 +19,9 @@ Current functionalities include:
 
 _retrain_ner.py_ - Official sample script to retrain existing Spacy model's NER
 
-_preprocessor.py_ -  Loads datasets for intent classification, pads sentence vectors and creates one hot vectors for class labels
+_dependency_tree.py_ - Contains functions for parsing and printing dependency trees using Spacy and NLTK
+
+_preprocessor.py_ -  Contains functions for loading datasets for intent classification, padding sentence vectors and creating one hot vectors for class labels
 
 _intent_train.py_ - Trains model to detect intents in classes provided.
 
