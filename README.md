@@ -7,7 +7,7 @@ Current functionalities include:
     Intent Classification [Using a Bidirectional LSTM based RNN - Keras with Tensorflow backend]
     Entity Recognition [Using the Spacy NLP library for Python]
     Dependency Tree Display [Using the Spacy NLP Library for Python]
-    Response Generation [Random text response generation using Stacked LSTM based RNN - Keras with Tensorflow backend]
+    Response Generation [Random response generation using Stacked LSTM based RNN - Keras with Tensorflow backend]
     
 ## Requirements:
 
