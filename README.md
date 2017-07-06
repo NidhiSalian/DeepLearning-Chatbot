@@ -79,7 +79,10 @@ python response_generate.py
    [Spacy](https://spacy.io/)
    
 ## Acknowledgments:
-   The response_train.py file is based on [this Keras example](https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py)
+   _response_train.py_ 
+    Based on [this Keras example](https://github.com/fchollet/keras/blob/master/examples/lstm_text_generation.py)
+   _corpuscleaner.py_ 
+    From Maia McCormick's [project](https://github.com/maiamcc/markovgen)
 
 ## License:
 
