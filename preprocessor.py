@@ -47,11 +47,9 @@ def pad_vec_sequences(sequences,maxlen=50):
 			new = np.zeros((maxlen,vec_len))
 			new[maxlen-orig_len:,:] = sequence
 		else:
-			#print(sequence)
 			new = sequence[orig_len-maxlen:,:]
 		new_sequences.append(new)
 	new_sequences = np.array(new_sequences)
-	#print(new_sequences.shape)
 	return new_sequences
 	
 def pad_class_sequence(sequence, nb_classes):
