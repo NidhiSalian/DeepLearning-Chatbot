@@ -9,7 +9,10 @@ Current functionalities include:
     Dependency Tree Display [Using the Spacy NLP Library for Python]
     Response Generation [Random text response generation using Stacked LSTM based RNN]
     
-## Training:
+## Requirements:
+
+
+## Usage:
 
 Provide your training datasets in the data/ folder.
 
@@ -26,14 +29,18 @@ Format:
     Further commits will incorporate the response selector pipeline, that will ensure that the responses are more relevant to the user's query.
     
 To train the intent classification model on the training data:
+
 python intent_train.py
 
 To test the intent classification model:
+
 python intent_predict.py
 
 To train the response generation model:
+
 python response_generation_train.py
 
 To generate a random response from the trained model:
+
 python response_random_generate.py
     
