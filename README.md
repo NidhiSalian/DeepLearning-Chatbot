@@ -62,4 +62,4 @@ python response_random_generate.py
    
 ## License:
 
-[MIT License](./license.txt)
+[MIT License](./LICENSE)
