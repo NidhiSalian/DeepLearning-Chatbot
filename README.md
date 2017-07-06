@@ -30,19 +30,19 @@ Format:
     Much larger training relevant corpuses are required in order to train a robust, domain-specific chatbot. The current implementation of the response generation phase is a very basic word sequence generator, that uses 2 stacked LSTM cells, each followed by a dropout layer.
     Further commits will incorporate the response selector pipeline, that will ensure that the responses are more relevant to the user's query.
     
-To train the intent classification model on the training data:
+### To train the intent classification model on the training data:
 
 python intent_train.py
 
-To test the intent classification model:
+### To test the intent classification model:
 
 python intent_predict.py
 
-To train the response generation model:
+### To train the response generation model:
 
 python response_generation_train.py
 
-To generate a random response from the trained model:
+### To generate a random response from the trained model:
 
 python response_random_generate.py
     
