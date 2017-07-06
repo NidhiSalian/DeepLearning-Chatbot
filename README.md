@@ -27,6 +27,12 @@ _response_train.py_ - Trains a model to generate random text in the style of dat
 
 _response_generate.py_ - Generates random response based on user input seed.
 
+_backup/_ - Generated models are saved to their respective folder here.
+
+_data/response_text/_ - Contains a number of possible corpuses as plain text files.
+
+_data/intent_classes/_ - Contains text files, each with numerous sentences corresponding to a particular class of intent. 
+
 ## Usage:
 
 Provide your training datasets in the data/ folder.
