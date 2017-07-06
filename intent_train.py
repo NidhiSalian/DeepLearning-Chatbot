@@ -12,7 +12,7 @@ from keras import optimizers, metrics
 
 
 
-maxlen = 50 #sentences with length > maxlen will be ignored
+maxlen = 50 #sentences with length(number of words) > maxlen will be ignored
 hidden_dim = 32
 nb_classes = len(labels)
 
