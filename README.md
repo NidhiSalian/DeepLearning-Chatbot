@@ -1,18 +1,19 @@
 # DeepLearning-Chatbot
 
-A simple, experimental chatbot implementation.
+A simple, experimental chatbot implementation using Deep Learning, implemented in Python.
 
 Current functionalities include:
 
-    Intent Classification [Using a Bidirectional LSTM based RNN]
+    Intent Classification [Using a Bidirectional LSTM based RNN - Keras with Tensorflow backend]
     Entity Recognition [Using the Spacy NLP library for Python]
     Dependency Tree Display [Using the Spacy NLP Library for Python]
-    Response Generation [Random text response generation using Stacked LSTM based RNN]
+    Response Generation [Random text response generation using Stacked LSTM based RNN - Keras with Tensorflow backend]
     
 ## Requirements:
 
    You will need a working installation of Python 3.5. (Preferrably on Anaconda - Installation Guide)
-   The other requirements can be found here.
+   
+   The other requirements(Python Libraries) can be found here.
 
 ## Usage:
 
