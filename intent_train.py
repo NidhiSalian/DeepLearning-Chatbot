@@ -65,7 +65,7 @@ my_model = model.fit(x_train, y_train, batch_size=batch_size, epochs=num_epoch, 
 print("Model Training complete.")
 
 #save the model
-model.save("backup/intent_models/model4.h5")
+model.save("backup/intent_models/model1.h5")
 
 print("Model saved to backup folder.")
 
