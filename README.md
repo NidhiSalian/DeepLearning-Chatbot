@@ -9,7 +9,7 @@ Current functionalities include:
     Dependency Tree Display [Using the Spacy NLP Library for Python]
     Response Generation [Random response generation using Stacked LSTM based RNN - Keras with Tensorflow backend]
     
-## Requirements:
+## Getting Started:
 
    You will need a working installation of Python 3.5. (Preferrably on Anaconda - [Installation Guide](https://docs.continuum.io/anaconda/install/))
    
@@ -52,3 +52,10 @@ python response_generation_train.py
 
 python response_random_generate.py
     
+## Built With:
+
+   [Anaconda](https://docs.continuum.io/anaconda/install/)
+   
+   [Keras](https://github.com/fchollet/keras/tree/master/docs)
+   
+   [Spacy](https://spacy.io/)
