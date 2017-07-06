@@ -58,7 +58,7 @@ for i, sentence in enumerate(sentences):
     y[i, word_indices[next_words[i]]] = 1
 
 
-#build the model: 2 stacked LSTM
+#build the model: 2 stacked LSTM cells
 model = Sequential()
 model.add(LSTM(256, return_sequences=True, input_shape=(maxlen, len(words))))
 model.add(Dropout(0.4))
