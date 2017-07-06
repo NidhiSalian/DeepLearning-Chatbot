@@ -11,7 +11,7 @@ Current functionalities include:
     
 ## Requirements:
 
-   You will need a working installation of Python 3.5. (Preferrably on Anaconda - [Installation Guide] (https://docs.continuum.io/anaconda/install/))
+   You will need a working installation of Python 3.5. (Preferrably on Anaconda - [Installation Guide](https://docs.continuum.io/anaconda/install/))
    
    The other requirements(Python Libraries) can be found [here](./requirements.txt).
 
