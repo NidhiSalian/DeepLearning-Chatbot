@@ -8,7 +8,7 @@ from dependency_tree import to_nltk_tree #, to_spacy_desc
 nb_classes = len(labels)
 
 #load the model to be tested.
-model = load_model('backup/intent_models/model3.h5')
+model = load_model('backup/intent_models/model1.h5')
 
 
 n_test = int(input("\nNumber of test queries? \n"))
