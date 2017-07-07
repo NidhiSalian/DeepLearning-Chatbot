@@ -38,7 +38,7 @@ And deactivate it using:
 
     source deactivate <new_env_name>
 
-Windows Users help on activation and deactivation of conda environments - [here](https://stackoverflow.com/questions/20081338/how-to-activate-an-anaconda-environment).
+For Windows users, help on activation and deactivation of conda environments - [here](https://stackoverflow.com/questions/20081338/how-to-activate-an-anaconda-environment).
 
 You will need the complete English Language model for thorough and effective predictions.
 
