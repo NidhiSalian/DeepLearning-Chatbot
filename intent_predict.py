@@ -48,8 +48,6 @@ for i in range(n_test):
  1 - This could possibly be a sub intent of the given query
  0 - This intent is not present in the given query 
 '''
-#print("Classes: ", nb_classes)
-#print("Labels", len(label_predictions[i]))
 
 for i in range(n_test):
 	print("\n Displaying Predictions:")
