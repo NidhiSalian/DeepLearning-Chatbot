@@ -18,7 +18,7 @@ def find_root(docu):
 
 def to_nltk_tree2(node):
     if node.n_lefts + node.n_rights > 0:
-        return Tree(tok_format(node), [to_nltk_tree(child) for child in node.children])
+        return Tree(tok_format(node), [to_nltk_tree2(child) for child in node.children])
     else:
         return tok_format(node)
 
