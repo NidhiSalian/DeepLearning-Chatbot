@@ -79,9 +79,7 @@ python response_generate.py
     
 ## Built With:
 
-   [Anaconda](https://docs.continuum.io/anaconda/install/)  
-   [Keras](https://github.com/fchollet/keras/tree/master/docs)  
-   [Spacy](https://spacy.io/)
+   [Anaconda](https://docs.continuum.io/anaconda/install/)     [Keras](https://github.com/fchollet/keras/tree/master/docs)     [Spacy](https://spacy.io/)
    
 ## Acknowledgments:
    _response_train.py_ 
