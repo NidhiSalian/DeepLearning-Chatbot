@@ -59,9 +59,9 @@ for i, sentence in enumerate(sentences):
 
 #build the model: 2 stacked LSTM cells
 sequence = Input(shape=(maxlen,len(words)), dtype='float32', name='input')
-forwards1 = LSTM(256, return_sequences=True, dropout=0.1, recurrent_dropout=0.1)(sequence)
+forwards1 = LSTM(512, return_sequences=True, dropout=0.1, recurrent_dropout=0.1)(sequence)
 after_dp1 = Dropout(0.4)(forwards1)
-forwards2 = LSTM(256, return_sequences=False, dropout=0.1, recurrent_dropout=0.1)(sequence)
+forwards2 = LSTM(512, return_sequences=False, dropout=0.1, recurrent_dropout=0.1)(sequence)
 after_dp2 = Dropout(0.5)(forwards2)
 output = Dense(len(words), activation='softmax', name='activation')(after_dp2)
 
@@ -87,7 +87,7 @@ for iteration in range(1, no_of_iterations):
     print()
     print('-' * 50)
     print('Iteration', iteration)
-    model.fit(X, y, batch_size=640, epochs=3)
+    model.fit(X, y, batch_size=100, epochs=3)
     model.save('backup/response_models/Textweights.h5',overwrite=True)
 
     start_index = random.randint(0, len(list_words) - maxlen - 1)
