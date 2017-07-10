@@ -59,10 +59,5 @@ def pad_class_sequence(sequence, nb_classes):
 		new_seq[labels.index(label)] = 1.0
 		return_sequence.append(new_seq)
 	return return_sequence
-	
-#def pad_test_sequence(sequence, maxlen =50):
-#	new_sequence = []
-#	vec_len = np.shape(sequence)
-	
-			
+		
 		
