@@ -30,7 +30,7 @@ _intent_predict.py_ - Predicts intent of test queries, recognizes entities and d
 _corpuscleaner.py_ - When beginning to work with a new corpus, run the text file through corpuscleaner.py. This will remove all 
                      numbers, the words "chapter" and "book", and any additional strings specified by the user in the file.
 
-_response_train.py_ - Trains a model to generate random text in the style of data provided.
+_response_train.py_ - Trains a model to generate random text in the style of data provided. 
 
 _response_generate.py_ - Generates random response based on user input seed.
 
@@ -58,6 +58,8 @@ Format:
     The current files provided include a variety of training data, each of which will result in a wildly different model, with respect to the style of responses generated.The current implementation of the response generation phase is a very basic word sequence generator, that uses 2 stacked LSTM cells, each followed by a dropout layer.
     
     Much larger training relevant corpuses are required in order to train a robust, domain-specific chatbot. Best trained on a GPU, because this process is is computationally very expensive.(Note: If you are using a GPU, use the Theano backend with Keras by changing the 'backend' attribute in your .keras/keras.json file to theano. You may also need to install the package mkl-service on Linux systems. )
+    
+    The current implementation is in the form of a word - level RNN. A [sequence level model](http://suriyadeepan.github.io/2016-06-28-easy-seq2seq/) would probably be more appropriate and will be incorporated in future commits.
     
     Further commits will incorporate the response selector pipeline, that will ensure that the responses are more relevant to the user's query.
     
