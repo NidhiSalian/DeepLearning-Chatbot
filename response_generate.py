@@ -51,14 +51,14 @@ for i in range(50):
 	x = np.zeros((1, maxlen, len(words)))
 	for t, word in enumerate(seed):
 		x[0, t, word_indices[word]] = 1.
-		preds = model.predict(x, verbose=0)[0]
-		next_index = sample(preds, diversity)
-		next_word = indices_word[next_index]
-		generated += next_word
-		del seed[0]
-		seed.append(next_word)
-		sys.stdout.write(' ')
-		sys.stdout.write(next_word)
-		sys.stdout.flush()
-	print()
+	preds = model.predict(x, verbose=0)[0]
+	next_index = sample(preds, diversity)
+	next_word = indices_word[next_index]
+	generated += next_word
+	del seed[0]
+	seed.append(next_word)
+	sys.stdout.write(' ')
+	sys.stdout.write(next_word)
+	sys.stdout.flush()
+print()
 
