@@ -74,7 +74,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['categ
 
 #Comment out the below lines if this is the first time you're training on new data.
 if os.path.isfile('backup/response_models/TextGeneration'):
-    model.load_model('backup/response_models/TextGeneration.h5')
+    model = model.load_model('backup/response_models/TextGeneration.h5')
 
 def sample(a, temperature=1.0):
     # helper function to sample an index from a probability array
