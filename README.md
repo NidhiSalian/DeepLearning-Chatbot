@@ -57,7 +57,7 @@ Format:
     Provide as much dialogue data as possible in a text file, as a sample for the type of text you want to generate.
     The current files provided include a variety of training data, each of which will result in a wildly different model, with respect to the style of responses generated.The current implementation of the response generation phase is a very basic word sequence generator, that uses 2 stacked LSTM cells, each followed by a dropout layer.
     
-    Much larger training relevant corpuses are required in order to train a robust, domain-specific chatbot. Best trained on a GPU, because this process is is computationally very expensive.(Note: If you are using a GPU, use the Theano backend with Keras by changing the 'backend' attribute in your .keras/keras.json file to theano. You may also need to install the package mkl-service on Linux systems. )
+    Much larger training relevant corpuses are required in order to train a robust, domain-specific chatbot. Best trained on a GPU, because this process is computation intensive.(Note: If you are using a GPU, use the Theano backend with Keras by changing the 'backend' attribute in your .keras/keras.json file to theano. You may also need to install the package mkl-service on Linux systems. )
     
     The current implementation is in the form of a word - level RNN. A [sequence level model](http://suriyadeepan.github.io/2016-06-28-easy-seq2seq/) would probably be more appropriate and will be incorporated in future commits.
     
