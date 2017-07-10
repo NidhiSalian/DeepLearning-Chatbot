@@ -48,7 +48,7 @@ Format:
 
 1. For intent classification:
 
-    Each text file contains one sentence per line that is relevant to one particular class of intent. The textfile must be named after the intent that its sentences represent. The names of these text files will then be considered as the classes of intents, later used for training and prediction. The classification model uses a single bidirectional LSTM cell, followed by a dropout layer, with an Adam optimizer.
+    Each text file contains one sentence per line that is relevant to one particular class of intent. The textfile must be named after the intent that its sentences represent. The names of these text files will then be considered as the classes of intents, later used for training and prediction. The classification model uses a single bidirectional LSTM cell, followed by a dropout layer, with an Adam optimizer. Spacy's default pretrained vectorizer model for English is currently used for word embedding. Future commits will implement [this](https://github.com/explosion/sense2vec) model for more accurate results. 
     
     The current dataset currently provided in data/intent_classification/ is small, but more data can be added or new training datasets can be used. The preprocessor.py file can be adjusted accordingly to read training input.
 
