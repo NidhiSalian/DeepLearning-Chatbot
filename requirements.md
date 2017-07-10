@@ -1,6 +1,6 @@
 
 # Requirements
-
+  
   Below is a comprehensive list of the python libraries you will need to install before you can run this project.
   
      python 3.5
@@ -49,3 +49,7 @@ So after you install spacy, run the following commands:
 
 That's it.
 We're all set.
+
+## Recommended reading:
+Andrej Karpathy's [blogpost](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+Denny Britz's [articles](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)
