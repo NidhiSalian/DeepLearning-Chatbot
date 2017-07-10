@@ -71,8 +71,8 @@ after_dp2 = Dropout(0.5)(forwards2)
 output = Dense(len(words), activation='softmax', name='activation')(after_dp2)
 
 model = Model(inputs=sequence, outputs=output)
-
-model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['categorical_accuracy'])
+optimizers.Adam(lr=0.001, beta_1=0.6, beta_2=0.099, epsilon=1e-08, decay=0.005, clipnorm = 1., clipvalue = 0.5)
+model.compile(loss='categorical_crossentropy', optimizer='Adam', metrics=['categorical_accuracy'])
 
 #Comment out the below lines if this is the first time you're training on new data.
 if os.path.isfile('backup/response_models/Textweights.h5'):
