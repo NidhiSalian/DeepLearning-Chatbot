@@ -93,6 +93,10 @@ python response_generate.py
    _retrain_ner.py_
     Official sample script from [Spacy examples](https://github.com/explosion/spacy/blob/master/examples/training/train_new_entity_type.py)
 
+## Note:
+ The code for this project has not been updated since September 2017 . 
+ If you have any queries on this project, you can contact me at: nidhisalian08@gmail.com .
+
 ## License:
 
 [MIT License](./LICENSE)
